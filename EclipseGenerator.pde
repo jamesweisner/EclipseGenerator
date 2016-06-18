@@ -24,9 +24,10 @@ void draw()
       a.setMinimumDistance(15 + center.age());
     }
   }
-  physics.tick(0.1);
+  physics.tick(0.25);
 
   // Draw.
+  fill(255, 255, 255 - 25*sqrt(center.age()), 255 - 10 * center.age());
   pushMatrix();
   translate(width / 2, height / 2);
   for(int i = 0; i < sparks.length; i++)
