@@ -36,7 +36,7 @@ void draw()
 
 void mouseClicked()
 {
-  saveFrame("universe-####.png");
+  saveFrame("eclipse-####.png");
 }
 
 void keyPressed()
